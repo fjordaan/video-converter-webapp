@@ -1,0 +1,16 @@
+{
+  "name": "video-converter-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "dependencies": {
+    "react": "18.x",
+    "react-dom": "18.x"
+  },
+  "scripts": {
+    "start": "parcel public/index.html --port 3000 --open",
+    "build": "parcel build public/index.html --dist-dir build"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  }
+}
